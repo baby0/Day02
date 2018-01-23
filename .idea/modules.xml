@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/My_App.iml" filepath="$PROJECT_DIR$/My_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day1208rikao/day1208rikao.iml" filepath="$PROJECT_DIR$/day1208rikao/day1208rikao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fun/fun.iml" filepath="$PROJECT_DIR$/fun/fun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_pagerslidingtabstrip/my_pagerslidingtabstrip.iml" filepath="$PROJECT_DIR$/my_pagerslidingtabstrip/my_pagerslidingtabstrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_rikao1213/my_rikao1213.iml" filepath="$PROJECT_DIR$/my_rikao1213/my_rikao1213.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_viewpagr/my_viewpagr.iml" filepath="$PROJECT_DIR$/my_viewpagr/my_viewpagr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_zhou2moni/my_zhou2moni.iml" filepath="$PROJECT_DIR$/my_zhou2moni/my_zhou2moni.iml" />
+    </modules>
+  </component>
+</project>

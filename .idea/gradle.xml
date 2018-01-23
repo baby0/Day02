@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day1208rikao" />
+            <option value="$PROJECT_DIR$/fun" />
+            <option value="$PROJECT_DIR$/my_pagerslidingtabstrip" />
+            <option value="$PROJECT_DIR$/my_rikao1213" />
+            <option value="$PROJECT_DIR$/my_viewpagr" />
+            <option value="$PROJECT_DIR$/my_zhou2moni" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

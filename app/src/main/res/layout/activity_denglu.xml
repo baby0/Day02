@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.my_app.Denglu_Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:gravity="center_horizontal"
+        android:text="登录界面" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/denglu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的用户名..." />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/denglu_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的密码..."
+        android:password="true" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="已有账号请登录" />
+
+    <Button
+        android:background="#ff0000"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="没有账号请注册" />
+</LinearLayout>

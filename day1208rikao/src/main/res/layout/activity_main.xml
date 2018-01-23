@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.day1208rikao.MainActivity"
+    android:orientation="vertical">
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_weight="1"
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+       android:orientation="horizontal"
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:text="首页"
+        android:button="@null"
+        android:layout_weight="1"
+        android:id="@+id/rb_shouye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:text="发布"
+        android:button="@null"
+        android:layout_weight="1"
+        android:id="@+id/rb_fabu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:text="发现"
+        android:button="@null"
+        android:layout_weight="1"
+        android:id="@+id/rb_faxian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:text="消息"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/rb_xiaoxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioButton
+        android:gravity="center_horizontal"
+        android:text="我的"
+        android:button="@null"
+        android:layout_weight="1"
+        android:id="@+id/rb_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </RadioGroup>
+</LinearLayout>
